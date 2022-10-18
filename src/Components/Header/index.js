@@ -1,10 +1,11 @@
 import styled from 'styled-components';
+import SwithMode from './SwitchMode';
 
 function Header() {
     return (
         <HeaderPane>
             <span>Where in the world?</span>
-            <button>Toggle Theme</button>
+            <SwithMode />
         </HeaderPane>
     )
 }
